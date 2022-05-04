@@ -41,7 +41,7 @@ app.get("/metadata/:id", (req, res) => {
   if (req.params.id <= currentSupply) {
     res.sendFile(metadataDir + req.params.id);
   } else {
-    res.sendStatus(401);
+    res.sendStatus(402);
   }
 });
 
@@ -49,7 +49,7 @@ app.get("/images/:id", (req, res) => {
   if (req.params.id <= currentSupply) {
     res.sendFile(imageDir + req.params.id + ".png");
   } else {
-    res.sendStatus(401);
+    res.sendStatus(403);
   }
 });
 
