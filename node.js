@@ -8,8 +8,8 @@ let currentSupply = 0;
 
 // Feel free to use whatever provider you want, I usually go with Alchemy
 const webSocket = new ethers.providers.AlchemyWebSocketProvider(
-  "networkName", // mainnet, rinkeby, etc
-  "YOUR_API_KEY"
+  "BSC", // mainnet, rinkeby, etc
+  "U9E6EE921R3VS8FK689GCDV3EQIJGDWATE"
 );
 
 const eventFilter = {
