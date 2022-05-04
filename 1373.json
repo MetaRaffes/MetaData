@@ -1,0 +1,35 @@
+{
+  "name": "MetaRaffes #1373",
+  "description": "A collection of 4,444 NFTs— unique digital collectibles living on the Binance Smart Chain. Your MetaRaffe doubles as your Space Club membership card, and grants access to members-only benefits, the first of which is access to THE STATION, an online MetaVerse space. Future areas and perks can be unlocked by the community through roadmap activation. Learn more at MetaRaffes.com",
+  "image": "ipfs://QmNemozLN3VZzUbH5J83anVLECZh4bvAyS38wpPxJpXeqx/1373.png",
+  "dna": "64ff5e3e6a39f021dac7ed63d95dcb87a791d07c",
+  "edition": 1373,
+  "date": 1651183695457,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Rainbow"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smoking"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Pirate"
+    },
+    {
+      "trait_type": "Head",
+      "value": "None"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Purple Bandana"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}
