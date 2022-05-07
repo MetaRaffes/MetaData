@@ -7,7 +7,7 @@ const contractAddress = "0x799DCdC7D25C78CCd8A52df217EB1E7589A55554";
 let currentSupply = 0;
 
 // Feel free to use whatever provider you want, I usually go with Alchemy
-const webSocket = new ethers.providers.AlchemyWebSocketProvider(
+const webSocket = new Web3.HTTPProvider('https://bsc-dataseed.binance.org/')(
   "BSC", // mainnet, rinkeby, etc
   "U9E6EE921R3VS8FK689GCDV3EQIJGDWATE"
 );
