@@ -16,8 +16,8 @@ const eventFilter = {
   address: contractAddress,
   topics: [
     // Minting emits a Transfer event from the 0x0 address
-    ethers.utils.id("Transfer(address,address,uint256)"),
-    ethers.utils.hexZeroPad("0x0", 32), 
+    Web3.utils.id("Transfer(address,address,uint256)"),
+    Web3.utils.hexZeroPad("0x0", 32), 
   ],
 };
 
