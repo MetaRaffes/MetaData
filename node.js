@@ -24,7 +24,7 @@ const eventFilter = {
 webSocket.on(eventFilter, (event) => {
     let [name, from, to, tokenIdHex] = event.topics;
     // All data returned is in hexidecimal, so we need to convert it
-    let tokenId = ethers.BigNumber.from(tokenIdHex).toNumber();
+    let tokenId = Web3.BigNumber.from(tokenIdHex).toNumber();
     if (tokenId > currentSupply) {
       currentSupply = tokenId;
       console.log("increased current supply to ", currentSupply);
